@@ -1,0 +1,5 @@
+{
+  "description": "my project hello",
+  "role": "arn:aws:iam::713403314913:role/lambda_basic_execution"
+}
+~

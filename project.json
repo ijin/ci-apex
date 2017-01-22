@@ -1,0 +1,8 @@
+{
+  "name": "my-project",
+  "description": "my project lambdas",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::713403314913:role/lambda_basic_execution",
+  "environment": {}
+}

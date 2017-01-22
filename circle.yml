@@ -1,0 +1,19 @@
+machine:
+  python:
+    version: 2.7.10
+
+dependencies:
+  pre:
+    - curl https://raw.githubusercontent.com/apex/apex/master/install.sh | sudo sh
+test:
+  override:
+    - echo 'test'
+deployment:
+  release:
+    branch: release
+    commands:
+      - ./apex_deploy_and_notify.sh production
+  master:
+    branch: master
+    commands:
+      - ./apex_deploy_and_notify.sh staging

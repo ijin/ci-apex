@@ -1,0 +1,8 @@
+{
+  "name": "stg-my-lambda",
+  "description": "my lambdas (staging)",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::713403314913:role/lambda_basic_execution",
+  "environment": {}
+}

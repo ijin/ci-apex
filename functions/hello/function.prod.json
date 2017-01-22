@@ -1,0 +1,6 @@
+{
+  "description": "my project hello (prod)",
+  "role": "arn:aws:iam::713403314913:role/lambda_basic_execution",
+  "memory": 512
+}
+~

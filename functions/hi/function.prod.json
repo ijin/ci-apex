@@ -1,0 +1,11 @@
+{
+  "description": "my project hi (prod)",
+  "role": "arn:aws:iam::713403314913:role/lambda_basic_execution",
+  "kms_arn": "arn:aws:kms:ap-northeast-1:713403314913:key/05c2cef7-04dc-47f8-b84b-c0e83b41dcf4",
+  "runtime": "python2.7",
+  "memory": 512,
+  "environment": {
+    "SECRET": "AQICAHh4yYbYJKs7oOMXVxQ6vbt1H2V+2eH1+aXYIU/CEoQdmgE+nUqgO3ZPIi2/jwsu6+JaAAAAYjBgBgkqhkiG9w0BBwagUzBRAgEAMEwGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMOea+j0yNfosT0AQcAgEQgB9faWM4KjJh5HJaX7HornUoNy41L9NIN6xdfjJrnynY"
+  }
+}
+~
