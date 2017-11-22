@@ -7,10 +7,10 @@ export ENV=`echo $1 | rev | cut -d \- -f1 | rev`
 
 case "$1" in
 'production')
-    apex deploy -e prod
+    apex deploy -r $AWS_REGION -e prod
     ;;
 'staging')
-    apex deploy -e stg
+    apex deploy -r $AWS_REGION -e stg
     ;;
 *)
     (exit 1);;
